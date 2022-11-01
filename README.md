@@ -1,6 +1,6 @@
 # cloudproject
 
-## 1. ONLINE BOOK STORE WEBSITE
+# 1. ONLINE BOOK STORE WEBSITE
 This is simple book store web application.
 You can able to view books, add them to cart and purchase.
 This was made using 
@@ -8,24 +8,24 @@ This was made using
 - mysql
 - bootstrap
 
-# View Website 
+## View Website 
 ref: http://ec2-44-202-59-60.compute-1.amazonaws.com/
 
 
-## 2. AWS Rekognition Samples
+# 2. AWS Rekognition Samples
 
 This project includes an example of a basic API endpoint for Amazon's Rekognition services (specifically face search). In `import.js` you can find code for loading a local folder of face images into an AWS image collection. `index.js` starts the service.
 
 But first...
 
-# Requirements
+## Requirements
 
 The only requirement of this application is the Node Package Manager. All other
 dependencies (including the AWS SDK for Node.js) can be installed with:
 
     npm install
 
-# Basic Configuration
+## Basic Configuration
 
 You need to set up your AWS security credentials before the sample code is able
 to connect to AWS. You can do this by creating a file named "credentials" at ~/.aws/ 
@@ -45,7 +45,7 @@ Update the `config.js` file with your settings
     module.exports.collectionName = "YourCollectionName";
     module.exports.region = "us-east-1";
 
-# Running the sample
+## Running the sample
 
 You'll need to have some images in `faces`. Run this to import them to AWS:
 
